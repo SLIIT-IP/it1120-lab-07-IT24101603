@@ -23,11 +23,11 @@ public class IT24101603Lab7Q1B
 
             System.out.println("Average is : "+ Average);
 
-            if (Average > 75) 
+            if (Average >= 75) 
             {
                 System.out.println("Overall Grade is: Distinction");
             } 
-            else if (Average > 50) 
+            else if (Average >= 50) 
             {
                 System.out.println("Overall Grade is: Credit");
             } 
